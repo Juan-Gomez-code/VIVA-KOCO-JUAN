@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdffb6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffc6ff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #a0c4ff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #9bf6ff;
+    margin: 10px 0 0 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.level {
+    margin: 20px 0;
+    border: 2px solid #ffc6ff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    background-color: #fff;
+}
+
+.level h3 {
+    font-size: 1.8em;
+    color: #a0c4ff;
+}
+
+.word-card {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ffc6ff;
+    border-radius: 10px;
+    background-color: #9bf6ff;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.word-card:hover {
+    transform: scale(1.05);
+}
+
+.word-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.word-card p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+button {
+    background-color: #a0c4ff;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffc6ff;
+}
