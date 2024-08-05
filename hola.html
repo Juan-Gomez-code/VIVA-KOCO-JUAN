@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRLANDA - Aprende Inglés</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     
+    <header>
+        <h1>IRLANDA</h1>
+        <h2>Aprende Inglés Jugando</h2>
+    </header>
+
+    <main>
+        <section id="level-1" class="level">
+            <h3>Nivel 1</h3>
+            <div class="word-card">
+                <img src="images/apple.png" alt="Apple">
+                <p>Apple</p>
+                <button onclick="playAudio('audio/apple.mp3')">🔊</button>
+            </div>
+            <!-- Repite el bloque .word-card para las demás palabras del nivel 1 -->
+        </section>
+        
+        <!-- Repite el bloque de sección para los niveles 2 a 5 -->
+        <section id="level-2" class="level">
+            <h3>Nivel 2</h3>
+            <div class="word-card">
+                <img src="images/cat.png" alt="Cat">
+                <p>Cat</p>
+                <button onclick="playAudio('audio/cat.mp3')">🔊</button>
+            </div>
+            <!-- Repite el bloque .word-card para las demás palabras del nivel 2 -->
+        </section>
+
+        <section id="level-3" class="level">
+            <h3>Nivel 3</h3>
+            <div class="word-card">
+                <img src="images/sun.png" alt="Sun">
+                <p>Sun</p>
+                <button onclick="playAudio('audio/sun.mp3')">🔊</button>
+            </div>
+            <!-- Repite el bloque .word-card para las demás palabras del nivel 3 -->
+        </section>
+
+        <section id="level-4" class="level">
+            <h3>Nivel 4</h3>
+            <div class="word-card">
+                <img src="images/flower.png" alt="Flower">
+                <p>Flower</p>
+                <button onclick="playAudio('audio/flower.mp3')">🔊</button>
+            </div>
+            <!-- Repite el bloque .word-card para las demás palabras del nivel 4 -->
+        </section>
+
+        <section id="level-5" class="level">
+            <h3>Nivel 5</h3>
+            <div class="word-card">
+                <img src="images/star.png" alt="Star">
+                <p>Star</p>
+                <button onclick="playAudio('audio/star.mp3')">🔊</button>
+            </div>
+            <!-- Repite el bloque .word-card para las demás palabras del nivel 5 -->
+        </section>
+    </main>
+
+    <script>
+        function playAudio(src) {
+            let audio = new Audio(src);
+            audio.play();
+        }
+    </script>
+</body>
+</html>
